@@ -39,7 +39,7 @@ test('split into words should be correct', () => {
     //data
     const sent1 = "Hello my friends";
     const sent2 = "JS - the best programming language";
-    const c = 3;
+
 
     //action
     const result1 = splitIntoWords(sent1);
