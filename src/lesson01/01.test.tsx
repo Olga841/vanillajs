@@ -47,12 +47,12 @@ test('split into words should be correct', () => {
 
     //expect result
     expect(result1.length).toBe(3);
-    expect(result1[0]).toBe("Hello");
+    expect(result1[0]).toBe("hello");
     expect(result1[1]).toBe("my");
     expect(result1[2]).toBe("friends");
 
     expect(result2.length).toBe(5);
-    expect(result2[0]).toBe("JS");
+    expect(result2[0]).toBe("js");
     expect(result2[1]).toBe("the");
     expect(result2[2]).toBe("best");
     expect(result2[2]).toBe("programming");
