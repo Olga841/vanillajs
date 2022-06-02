@@ -1,4 +1,28 @@
-const student = {
+type AdressType = {
+    streetTitle: string
+    city: CityType
+}
+
+type CityType = {
+    title: string
+    countryTitle: string
+}
+
+type TechType = {
+    id: number
+    name: string
+}
+
+type StudentType = {
+    id: number
+    name: string
+    age: number
+    isActive: boolean
+    adress: AdressType
+    technologies: Array<TechType>
+}
+
+const student: StudentType = {
     id: 1,
     name: "Dimych",
     age: 27,
@@ -10,7 +34,7 @@ const student = {
             countryTitle: 'Belarus'
         }
     },
-    technolodgies: [
+    technologies: [
         {
             id: 1,
             name: 'HTML'
